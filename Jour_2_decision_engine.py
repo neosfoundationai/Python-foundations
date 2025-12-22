@@ -6,9 +6,10 @@ question5 = input("As-tu un budget ? oui/non :")
 
 profil_detecte = question1, question2, question3
 
-
+print( "analyse termine .")
 print("==== PROFIL ===")
 print(f"Ton profil est {question1}, clients payants = {question2},{question3},  audiance existante = {question4}, budget = {question5}")
+
 if question1 == "B2B" and question2 == "non":
     print ("Valide ton offre avec quelques entreprises pilotes avant de scaler.")
 
