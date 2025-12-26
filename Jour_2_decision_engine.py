@@ -4,7 +4,7 @@ question3 = input("Ton objectif principal est-il: vitesse, revenu, apprentissage
 question4 = input("A tu une audiance existante ? oui/non :")
 question5 = input("As-tu un budget ? oui/non :")
 
-profil_detecte = question1, question2, question3
+
 
 print( "analyse termine .")
 print("==== PROFIL ===")
