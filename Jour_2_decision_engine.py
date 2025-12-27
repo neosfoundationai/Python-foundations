@@ -5,7 +5,6 @@ question4 = input("A tu une audiance existante ? oui/non :")
 question5 = input("As-tu un budget ? oui/non :")
 
 
-
 print( "analyse termine .")
 print("==== PROFIL ===")
 print(f"Ton profil est {question1}, clients payants = {question2},{question3},  audiance existante = {question4}, budget = {question5}")
