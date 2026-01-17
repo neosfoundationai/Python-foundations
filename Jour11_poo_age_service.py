@@ -46,6 +46,7 @@ def main():
             prediction = AgePredictionService(nom)
 
             data = prediction.appel_api()
+            
             prediction.display(data)
 
             break
